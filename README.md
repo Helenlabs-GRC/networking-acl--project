@@ -26,7 +26,7 @@ This networking assignment demonstrates the design and testing of a departmental
 
 The topology connects three departments through a central router, with switches providing connectivity to the devices in each department.
 
-![Completed network topology](screenshots/network-topology.png)
+<img width="940" height="432" alt="image" src="https://github.com/user-attachments/assets/2219e6ab-f1b3-4f52-a83f-85d66f059b7d" />
 
 ## Implementation and Evidence
 
@@ -34,31 +34,35 @@ The topology connects three departments through a central router, with switches 
 
 IP addressing is configured on departmental devices. The assignment includes the following screenshot of a PC's IP configuration.
 
-![PC IP configuration](screenshots/ip-configuration.png)
+<img width="940" height="521" alt="image" src="https://github.com/user-attachments/assets/cdabf1ed-98d0-4e4a-bafe-26964c8f944f" />
+
 
 ### 2. Successful Connectivity: HR to IT
 
 A ping test from an HR PC to an IT PC demonstrates successful connectivity between these departments.
 
-![Successful ping from HR to IT](screenshots/successful-hr-to-it-ping.png)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/5868930e-dfe6-4816-b032-2bee5adf1d51" />
+
 
 ### 3. Restricted Connectivity: Sales to IT
 
 A ping test from a Sales PC to an IT PC fails, demonstrating the intended access restriction.
 
-![Failed ping from Sales to IT](screenshots/blocked-sales-to-it-ping.png)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/fd645c2b-64e7-4aad-8829-c5695220a553" />
+
 
 ### 4. Router ACL Configuration
 
 An ACL is configured through the router command-line interface to implement network access restrictions. The configuration evidence is shown below.
 
-![ACL configuration in router CLI](screenshots/router-acl-configuration.png)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/5d43e147-af95-402f-898d-1fc039c9459f" />
+
 
 ### 5. Sales Access to the Web Server
 
 Despite the restricted Sales-to-IT ping connectivity, the Sales department can access the server's HTTP service, as shown in the browser screenshot.
 
-![Sales accessing the HTTP server](screenshots/sales-http-access.png)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/aa6c8535-5ebe-41b9-899b-1e75deb37687" />
 
 ## Test Results
 
@@ -77,7 +81,22 @@ This assignment illustrates how network segmentation and router ACLs can help co
 
 - `README.md` — project documentation
 - `screenshots/` — six screenshots taken from the assignment
+## 🎓 Skills Learned
 
+Through this networking project, I gained practical experience in:
+
+- **Network Design and Topology:** Designing and connecting three departments (Sales, IT, and HR) using routers and switches in Cisco Packet Tracer.
+- **IP Address Configuration:** Assigning static IP addresses, subnet masks, and default gateways to network devices.
+- **Network Connectivity Testing:** Using the `ping` command to test communication between devices and verify network connectivity.
+- **Access Control Lists (ACLs):** Configuring ACLs on a Cisco router to restrict unauthorized communication between departments.
+- **Network Security:** Implementing access restrictions to prevent Sales department devices from communicating with IT department devices.
+- **Router CLI Configuration:** Using Cisco IOS command-line interface commands to configure and verify network access rules.
+- **HTTP Service Testing:** Verifying that Sales department devices can access a web server despite network access restrictions.
+- **Network Troubleshooting:** Identifying and testing successful and blocked network connections.
+
+### Key Takeaway
+
+This project strengthened my understanding of network configuration, access control, and network security. I gained hands-on experience using Cisco Packet Tracer to design a departmental network, implement ACL rules, and verify that network traffic is permitted or restricted according to security requirements.
 ## Author
 
 **Helen Chioma Ifionu**  
